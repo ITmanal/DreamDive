@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat4S1">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                        image story                    -->
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat4ss1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--                    aaudio buttoon                    -->
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <!--                    the text                    -->
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="
+This is the story of two siblings, one of them was Rohan and the other was Mira. Both of them were very good children. Rohan and Mira loved finding their lost things and used to search for them like a detective. They both had a magnifying glass and a telescope. Rohan and Mira used to see distant things from that telescope nearby.
+
+Both of them were also very fond of sports and played especially with their ball. They used to throw it at each other with great pleasure.
+
+There was also a dog in their house named Jumbo. Which was very cute and very naughty but everyone loved Jumbo. Both of them liked him. All three played together with that ball.
+
+One day in the morning, Rohan and Mira thought of playing with the ball. Rohan and Mira started searching for that ball from place to place. They searched everywhere but could not find that ball anywhere. Now they started thinking that where did that ball go?
+
+They saw all the places and especially that place where they had kept that ball. But, the ball was not there. This was not just the first time. Many things in the house were disappearing. Sometimes some things were disappearing from the kitchen, some things of the mom and papa.
+
+Both of them could not understand what was happening in the house. It had become a mystery inside the house.
+
+Now it was the time to find the lost things, now both of them were going to be spies The Little Detectives. Detectives who would find out everything. Now, they will remove the curtain from this secret soon and find out who is hiding things from their home.
+
+Both of them put a cap on the head, of them hung their binoculars on the shoulder, and started searching for him with a magnifying glass in hand.
+
+First of all, they both looked closely at the place where the ball was placed. Rohan and Mira examined the place very closely. After investigation, they found a piece of evidence. By finding this evidence they got the first lead in their investigation.
+
+There they found a small dark hair. This was like proof for them that they wanted to use to find their lost ball.
+
+Rohan showed that black hair to his sister and said, Mira, look what we got?
+
+Mira said, What did you get?
+
+Look at this short black hair. See this carefully. We got our evidence.
+
+Rohan said.
+Now the question arises, whose black hair is it?. Rohan asked Mira.
+
+Both Mira and Rohan started thinking about that hair. At first, they thought that everyone’s hair is black in the house, also of father, also of mother, and also of us, and our dogs also have black hair.
+
+Both of them thought that their parents could not take the ball because what would they both do with it? And they can’t suspect each other because they don’t tell lies to each other, they are like truth buddies who never tell lies to each other. In such a situation, the suspicion of both of them was only and only on their dog.
+
+Now both of them kept an eye on their dog and looked closely at him. They both kept an eye on his antics. Both wanted to know what he was doing.
+
+They would keep an eye on every movement of Jumbo and follow his every movement.
+
+The day went on but they had not got the ball yet. But, still, their suspicion remained only on a jumbo.
+
+One day both of them saw that their dog was digging a pit behind a tree. Both of them were surprised to see this action of Jumbo. Then started thinking, what is he doing?
+
+Both of them watched his actions quietly and kept watching him till Jumbo left from there. Then after some time the dog left from there, then together they decided that now they will go there and see what is there. And there may be the end of their investigation.
+
+Now both went under that tree and saw the place well. There, detectives dug the pit and were surprised to see what they saw inside that pit.
+
+At that place, there were many such items from the house that the dog had brought and hidden there and they found their ball in that place.
+
+Detectives took all those things inside the house and showed the mother and father. They told them that it was our naughty Jumbo who hides the household items from various places.
+
+Seeing all this Jumbo started jumping in the house. He was trying to show his innocence but all they know is that he was behind it.
+
+Now it was the time to keep things back in their briefcase. Yes! They have briefcases to keep their things. They keep their magnifying glass, telescope, and hat in their briefcase.
+
+Again they played with the ball and enjoyed what they did.
+
+In this way, both of them retrieve their lost ball and are called : Little Detectives."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

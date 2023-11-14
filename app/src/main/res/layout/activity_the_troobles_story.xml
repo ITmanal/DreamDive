@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".theTrooblesSTORY">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/s1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:text="It was a warm and sunny day and everyone was out and about, either shopping, doing their dry cleaning, or getting a nice treat from Bake n’ Take. Nothing could possibly ruin such a fine day in the village… or could it?
+
+Just then, a sound of juddering and whirring resounded in the sky, and people were looking up in surprise.
+
+Emma, from the grocery, whispered to her Great Aunt: “Who can this be?”
+
+“I bet it’s one of those famous celebs,” Lexi, her great aunt, squawked.
+
+The passengers in the helicopter were famous alright, but not in a good way. You could say that they were infamous. They were a family of seven siblings from the big city. Their wealthy, blinged-out parents sent them to the village to get some fresh air and healthy food. But the Trooble kids didn’t like anything they considered “old.” They didn’t like the countryside because it was old, they didn’t like trees because they were old, and they didn’t like the village because, you guessed it, it was old.
+
+When it came to food, they only liked fast food or stuff that came wrapped up in plastic that was full of salt, sugar and preservatives. Home cooked was not their style.
+
+But what they did like was to liven things up a bit. In this case, they landed in a Helicopter on the Cricket field just outside the Village pub. They stormed out, ready for action wearing combat gear and dark glasses.
+
+Bill, the postman stopped posting letters, Mrs Buttons stopped sewing and Mrs Brownie and her daughter stopped baking, closing the shutters with a ‘gone for lunch’ sign on the door. The people of the village all had the same thought: The Trooble kids were back! Some found themselves wringing their hands in fear and some felt clammy with beads of sweat forming on their foreheads.
+And so began the familiar feeling of foreboding.
+
+Because this was not the first time the Troobles had spent the holidays causing trouble in the Village.
+
+The previous holiday, the terrible twins, Mona and Fig Trooble, had sneaked into the bakery and stolen the 3 tiered wedding cake that Mrs Brownie had painstakingly baked and decorated to perfection. They carried it to the church on the day of the wedding and the seven Trooble siblings - all wearing masks to hide their faces, stood on the church grounds pelting pieces of cake at the bride and groom. There were screams and tears all around. The vicar called the police, in vain, because by the time the boys and girls in blue arrived on their bicycles waving their truncheons and blowing their whistles, the Troobles were long gone.
+
+And here they were, back again! Only now they were a year older and had grown bigger. It wasn’t long before they started their rein of terror! They divided themselves into two groups making it harder to be caught. One lot pocketed all of Mrs Buttons knitting needles from her haberdashery shop and went about puncturing car tyres in the town.
+
+The other half went to the sweet shop and bought all the liquorice sticks, gobstoppers and sherbert volcanoes which they then threw at Mrs Payne the village dentist.
+
+There was never a good time for the Troobles to show up, but this was a particularly unfortunate day to see the spoilt brats. Lord and Lady Sermonize were visiting the village to open a new school. They were planning a tour of the village to praise all the good people doing a wonderful job in the community.
+
+Lexi had worked for the butchers since she was 16, and was now 89 years old.
+
+As she hobbled past, she noticed that the door of the shop had been left open. She went in to investigate, calling out:
+
+“Mr Chops, are you in here?”
+
+But Mr Chops the butcher did not reply.
+
+Slowly, the door of the refrigerated room creaked open. Lexi walked in and turned on the lights. All seven Trooble siblings were standing right there in front of her, holding rows and rows of sausages, raw steaks, and headless chickens. They rushed past her laughing and slammed the door shut. Soon they were onto the street, throwing fresh steaks at passing cars, wrapping people in sausages, and scaring young children with headless chickens.
+“Let me out! Let me out you hooligans!”
+
+After a few minutes of frantic banging on the refrigerator door, a half-frozen Lexi was rescued by a small boy who heard her knocks and cries. She pushed past her rescuer muttering, “Those rascals will pay for this!” As fast as her walking stick would allow, she headed to Mr Chops' house to alert him about the vandalism at his shop. Unluckily, a particularly cheeky member of the Troobles, called Albert, got to him first.
+Lexi found a distressed looking butcher on his front lawn, calling out to be released. He’d been strapped to his chestnut tree, tied up in a string of his own pork sausages! All the while being bombarded with juicy tomatoes by another Trooble.
+
+By now, half the town was covered not only in raw meat, but also fresh salmon and fish guts to add to the mess.
+The Troobles couldn’t resist the opportunity to catch the fish cart just in time for delivery while running past Mr Plaice’s fishmongers.
+
+Next, the Troobles hijacked the milk float. What they were doing with it was a disgrace. They filled up their water cannons with milk and went about spraying it all over peoples windows, cars, and dogs going for their daily walks. But the worst part of it all, was that when Lard and Lady Sermonize walked out of Mrs Button’s shop, they were hit with a barrel load of Mr Whites gold top, full cream milk straight into their faces. They were not impressed! Needless to say, their driver rushed them back home to their castle without stopping to shake any more hands.
+
+Lexi was outraged and determined to teach the Troobles a lesson. If no one else was up to the job of leading the resistance, she would have to do it.
+That evening, in the sitting room of the Senior Citizens home, she made a stirring speech.
+“My fellow senior citizens,” she said. “We have all known each other for many years. We have grown old together in a village that is even older than our bones. But we still remember what it felt like to be young. We remember how it felt when we thought we knew everything. Now that we have all these years behind us, we know better. But these young delinquents darkening our doorsteps are yet to learn that lesson. They don’t know that years bring wisdom. Let’s teach it to them now shall we?”
+
+And all the senior citizens waved their sticks and cheered.
+
+The following day, Lexi put her plan into action. The senior citizens were busier than usual. She got them working in the kitchen cooking gallons and gallons of spaghetti bolognese. Mr Tarantinio the 91-year-old owner of the Vecchia Roma Italian restaurant, directed the cooking. Meanwhile, Lexi went around the village putting up signs advertising a spaghetti festival with lots of free spaghetti served in the village hall. She knew that the Troobles would find it a tempting target for their disorderly behaviour. How could they resist the chance to steal spaghetti bolognese and chuck it at people?
+
+So when the Troobles came running to the village hall, the senior citizens were ready for them. Mr Tarantinio closed the door behind them and locked it firmly. The Troobles were trapped inside the village hall. And all the residence of the Senior Citizens Home were arranged around the upper balcony of the hall, armed with dollops of spaghetti bolognese which they proceeded to rain down on the Trooble clan until they were all covered in pasta and red sauce.
+
+Best of all, Lexi filmed the whole episode on her German cine camera made in 1952. She planned to take the film to the shop and ask Mr Slide to upload it onto the Big YouTube thing in the sky that she had heard of.
+
+“There you are, see how you like it now!” called out Mr Chops, grinning from ear to ear. And an old age pensioner piped up. “Do you think old people are good for nothing but the grave? Not on your Nelly mate!”
+
+Joseph, the youngest Trooble, wiped the bolognese off his face with his sleeve, looked up and replied:
+
+“That was the best prank ever! Will you join our gang and come back to the city with us?”
+
+And all the Troobles began to cheer and chant. “Come with us.. Come with us!!!”
+
+“Now listen ‘ere you wretched lot,” declared Malcolm, who fought in the Second World War, “If you want to be our friend you’ll get clearing the mess you made in our village! And you’ll pay for all the goods you stole from these kind folk round ere!
+
+Mrs Buttons added, “You must take responsibility and replace all the things you have broken, including the tyres you punctured with my knitting needles.”
+
+Mrs Stickles, everyone's friend, the gentle, old lollipop lady said very solemnly, “Our things might be old, and some of us may be old but we’re strong as an ox in our village. If you take care of things, they last.”
+
+“And we always stick together; not with milk, but with our spirit,” roared Mr White, the milkman.
+
+“On that note,” said Lexi. “You will each of you write a letter of apology to Lord and Lady Sermonise for humiliating them with that sticky mess you blasted at their faces!”
+
+And to her surprise, Albert, Joseph, Mona, Fig and the rest of the Troobles agreed to her terms. You see, they respected Lexi and her gang of Senior Citizens because they had fought back..
+
+And to top off their agreement, The Troobles sealed the deal by inviting all the Senior Citizens and all the shopkeepers whose property they damaged, to ‘The Vecchia Roma’ for supper, and paid the bill including a big tip. And they all really enjoyed the traditional pizza cooked in a real wood-fire oven, followed by loads of Italian ice cream.
+
+And that was The Troobles, written by Sophie Lamburn and read by me, Jana for Storynory.com"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

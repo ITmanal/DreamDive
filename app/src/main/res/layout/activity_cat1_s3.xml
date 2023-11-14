@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat1S3">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="410dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat1s33" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="Once upon a time, there was a little girl. Her name was Emily. She was a daughter of a king. It was almost Christmas. “I want a puppy,” she said to Santa. A magic Elf named Elfie heard this so Elfie decided to find one. But Santa said it was not safe to carry puppies in the sleigh!
+But Elfie did not give up. Elfie asked a girl-Elf to do her magic. And a puppy came to her. She gave it to Elfie to take to Emily.
+
+But Santa said no to the puppy!
+
+So Elfie and the puppy hid in Santa’s bag of toys. They finally got to the castle. They landed on the roof and went down the chimney. Thankfully, the dog was sleeping. Elfie wrapped it in a blanket so it was warm, but oops! Elfie broke an ornament! The girl woke up and saw Elfie. “Frog buttons,” thought Elfie. The girl said, “Thank you, this is the best present ever!”
+The End."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat4S2">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                        image story                    -->
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat4s22" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--                    aaudio buttoon                    -->
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <!--                    the text                    -->
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="
+Trojan Horse Story
+
+This story is from history. When the Greek army wanted to capture a city called Troy. For this, the Greek army was tried for ten years. The city of Troy was surrounded by high and strong walls. There was a big door for entry and exit. For which the guards stood all the time to watch. The wall of the city of Troy was so strong that it was very difficult for the enemies to break it. The people of Troy felt safe inside this wall.
+
+Greek soldiers wanted to capture this city for a long time. But there was no way to enter through such a strong wall and huge door. The Greek soldiers were not among the losers. Army General Odysseus took a used his mind and chooses a dangerous path. They figured out an idea that together they would make a huge wooden horse that is a Trojan horse. Which will be hollow from the inside.
+
+Inside The City
+After the horse was ready, Odysseus selected the 30 best soldiers from his army and asked them to go inside the trojan horse. Before going inside, Odysseus told the soldiers his trick and asked them to be patient. Because Odysseus knew that now this battle can be won only with patience. The rest of the soldiers united and marched towards the city of Troy and took the Trojan Horse with them.
+Troy’s army got ready to see the Greek soldiers coming toward them. Gradually the Greek soldiers moved towards the door and on reaching the door, they left the Trojan horse there. Troy residents were astonished that Greek soldiers came and left without fighting. Now everyone’s attention was on that huge horse. Everyone felt that Greece could not win the battle with them, that is why they have given this huge horse as a gift. The people of Troy bring the horse inside the city by opening the door.
+
+ As night falls, when all Troy residents were sleeping peacefully. Then the soldiers were hidden inside the horse and come out one by one. First, they open the city door so that the rest of the soldiers can enter. As soon as the door is opened, all the soldiers enter the city and attack Troy together. Then in this way, the Greek soldiers capture the entire city of Troy.
+So this was the story of the Trojan Horse, which teaches us that any war can be won with wisdom and patience."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

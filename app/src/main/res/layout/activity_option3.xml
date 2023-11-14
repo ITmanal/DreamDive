@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".option3">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                        image story                    -->
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="390dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat5s2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <!--                    the text                    -->
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="Jack loved exploring the jungle near his home. One day while hiking, he found an opening in the side of a cliff. Curious, he climbed inside and discovered a hidden cave.
+Jack wanted to explore the cave, but it was dangerous. The path was narrow and slippery.
+Jack carefully made his way deeper into the cave. Eventually, he came to a giant chasm! The path continued on the other side but the jump was to far. Jack found a vine to swing across on. He made it to the other side and continued exploring the cave. Jack felt proud of himself for overcoming the obstacle.
+
+Jack climbed down the vine and swung across the chasm. Though a bit scary, Jack stuck the landing on the other side. He continued navigating the cave's twists and turns. The cave's mysteries kept drawing Jack further into its depths. Jack had an adventurous day exploring the hidden cave."/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

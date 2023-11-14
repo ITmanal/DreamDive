@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat1S4">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat1s44" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text='Let me tell you, Birdy is no ordinary back-garden crow; he is old. And I don’t mean old like Dad or GrandDad. I mean ancient, like , "I-was-there-when-they-built-the-pyramids" kind of old. Most nights, when Birdy is not off attending crow conventions or solving mysteries, he perches on Jake is windowsill and tells him enchanting tales. Jake falls asleep with dreams that could outshine any Hollywood movie. But sometimes, when Birdy is busy, Jake has to count sheep all on his own.
+
+                    One time, Birdy was missing in action for a week. Jake lay there like an owl every night, eyes wide open, star-gazing. He noticed the moon seemed to be on a vanishing act, getting thinner and paler.
+
+                    “Mum,” said Jake when she came in to see if he was asleep. “I think the moon is feeling under the weather.”
+
+                    “Oh darling what makes you think that?”
+
+                    “She’s so pale and thin.”
+
+                    Mum kissed his forehead, which made Jake’s eyebrows dance. “Darling the moon is just playing her monthly game of hide and seek. She loves to gobble up all the starlight until she’s round, and then she shares it with the night sky. But she’ll be back to her plump self again soon!”
+
+                    “Oh good,” said Jake, “So tomorrow she might be big and fat again?”
+
+                    “No, not suddenly like that. She’ll gradually get bigger and bigger, so you’ll hardly notice her growing.”
+
+                    Days rolled on, but Jake saw that the moon didn’t just slim down; she completely disappeared.
+
+                    “Mum, the moon has left a gaping hole in the sky,” said Jake, waving his arms dramatically.
+
+                    “Oh, honey,” Mum smiled, “She’s just being shy tonight.”
+
+                    Jake was certain that Birdy would return when the moon made her comeback. And lo and behold, a few nights later, the moon was full and dazzling. Jake waited for a familiar tell-tale sound.
+
+                    “Tap, tap, tap,” went Birdy’s beak, sounding like an impatient guest. Jake jumped up, almost knocking over a lamp, and opened the window.
+
+                    “Where’ve you been?” he demanded.
+
+                    “I was on an international assignment,” replied Birdy with an air of importance.
+
+                    “Did you have a nice trip?”
+
+                    “Not really, I got seasick - eeeh”
+
+                    “Don’t birds fly normally?”
+
+                    “Whenever I can. I always travel first class, but it was too far to fly. So, I had to take a big ship instead.
+
+                    “Where did you go on such a long journey?”
+
+                    “To the edge of the Earth, where the sea and sky are so close they have coffee together,” said Birdy nonchalantly.
+
+                    “What were you doing there?”
+
+                    “Did you notice anything peculiar about the sky lately?” Birdy tilted his head so dramatically Jake thought it might fall off.
+
+                    “Yes, I did! I thought the moon was on a diet or something. But Mum said that’s just the moon’s hobby - growing bigger and smaller.”
+
+                    That’s one way to explain it to the youngsters,” said Birdy, rolling his eyes. He began explaining that the moon was sick, so he had to fly up to her sky loft only to find her lying on a soft cloud bed, looking so pale she was almost invisible. It turned out that she had swallowed a black hole! So Birdy stayed and nursed her back to health.
+
+                    “How did you cure her?” Jake is eyes were wide with curiosity.
+
+                    “Moon tea,” Birdy replied as if it was obvious. “Made from the finest comets and shooting stars. She sipped it, and voila! Now she’s waxing and waning like a yo-yo on a sugar rush!!”
+
+                    “Can I go up to the loft in the sky,” asked Jake. “I would like to meet the moon too?”
+
+                    “Afraid not,” said Birdy shaking his head. “You’re too young to travel without your parents.”
+
+                    “Awwwww! That’s not fair.”
+
+                    “But cheer up because I brought a present for you.”
+
+                    “A present! I love presents!” Said Jake excitedly.
+
+                    "Go and fetch me a mug,” ordered Birdy.
+
+                    Jake hurried to the wash basin where he kept his toothbrush and retrieved the mug. Birdy opened his beak and coughed out some shiny dust.
+
+                    "What is that?" Jake asked, wide-eyed.
+
+                    "Stardust, is what is!" Birdy replied proudly.
+
+                    "Thank you, Birdy! Er, what can I do with it?"
+
+                    "Anything you like! Sprinkle it in your mum is cooking, and it will taste amazing."
+
+                    "Mum is chocolate cake is already pretty good. Any other ideas?"
+
+                    "Put some on your toothbrush, and your teeth will shine like a movie star is," Birdy suggested, grinning toothlessly. "But careful not to blind anyone with your dazzling smile!"
+
+                    "But I already have toothpaste."
+
+                    "You are right, using genuine, cosmic, free-range stardust as toothpaste might be overkill. Instead, try this: use it to make a wish! Just sprinkle some celestial seasoning into the evening sky, and poof! Your wishes might just turn real. But, a word of advice," Birdy leaned in closer, "for the ultimate wishing experience, go somewhere with space to spare, like a beach, desert, or mountaintop. It gives the stardust room to twinkle its toes before it goes to work."
+
+                    The next day, when Dad picked Jake up from school, Jake asked, “Dad, can we go on a journey, like to the End of the World where the sea meets the sky?”
+
+                    “Sure, you’re in luck,” said Dad, “I’ve booked a holiday for us just like that.”
+
+                    “Oh, great, where to?”
+
+                    “Cornwall,” said Dad.
+
+                    And he wasn it lying. The journey to Cornwall felt like an epic quest to the ends of the Earth, with a six-hour traffic jam adventure. But when they finally arrived, it was like unlocking a secret level in a video game – the Perfectly English Package! A cosy gingerbread-like cottage, a seaside town that smelled like fish and chips, and weather that was so British it belonged in a storybook. A gloomy English storybook for sure, probably about a depressed ghost, but a storybook all the same.
+
+                    One evening, as they sat in their cottage listening to the rain, Jake had an idea as he looked out at the grey, stormy sea.
+
+                    Jake grabbed his hidden treasure of stardust and excitedly declared to his parents that he must go to the beach.
+
+                    “Oh sweetheart you are right," Mum agreed, "We can not stay cooped up indoors all holiday long."
+
+                    "Alright, my Hearties!" declared Dad, "Time to don our trusty wellies and raincoats!" And off they marched down the steep path to the beach, waddling like a parade of determined ducks.
+
+                    Jake stood near the water’s edge. His parents stood back and watched him. The rain fell softly, and the waves lapped at his feet. He held the toothpaste mug tightly and closed his eyes.
+
+                    “I wish,” he whispered to the night sky, “for peace and happiness for everyone here on holiday. May the sun shine brightly, the sea sparkle with joy, and our days be filled with jokes and loads and loads of chips."
+
+                    He clutched the mug with both hands, took a deep breath, and tossed the stardust into the air with all his might. A whirlwind of glitter spiralled upwards, dancing in the air, and swirled into fantastic shapes – spirals, stars, and diamonds.
+
+                    Waves of colour – blues, purples, and pinks- blended with silver and gold. It was as if the sky was being embroidered with threads of light.
+
+                    People came out of their holiday cottages, gazing in wonder. The beach, the sea, everything was bathed in the soft, radiant glow of the stardust as it continued its graceful waltz upwards.
+
+                    And then, as the last speck of dust reached the stars, there was a sudden, silent burst of pure, white light, as if the night itself was applauding the stardust’s final act. The magic hung in the air for a moment, and then with one last puff, the show was over, leaving behind wisps of warm air, slightly moist, but without any rain.
+
+                    Everyone all around clapped and cheered.
+
+                    Even Mum and Dad were smiling! Dad knelt in the wet sand and started making sand castles. Mum threw off her shoes and danced in the waves. This was all most unusual.
+
+                    People flocked down to the water’s edge, drawn by the sudden change. The beach began to fill with laughter and the chatter of excited holidaymakers.
+
+                    As the night continued, people shared stories, food, and laughter. The sea waves whispered and the stars winked from above.
+
+                    the moon was shining extra bright, and if you looked closely, you could see a wise old crow soaring through the night.
+
+                    And every time someone made a wish, the moon would wink, and Birdy would caw joyfully.
+
+                    And that was “Birdy and the Magical Stardust.”
+                    Read by me, Jana for Storynory.com. Until next time, take care of yourselves. Bye for now!'/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

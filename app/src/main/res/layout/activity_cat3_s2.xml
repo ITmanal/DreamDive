@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat3S2">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                        image story                    -->
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat3ss2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--                    aaudio buttoon                    -->
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                    <!--                    the text                    -->
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="2000 years ago Rome was in chaos. The great Roman general Julius Caesar had been murdered. He was stabbed to death by nobles, including his friend, Brutus. They had believed he wanted to make himself King. They did not want to be ruled by a King.
+
+
+The murderers of Caesar were delighted with themselves. They thought they had saved Rome. However, Julius Caesar’s friends were furious. One of his friends was called Mark Antony. He was asked to speak at Julius Caesar’s funeral. Thousands of ordinary Romans were there. Mark Antony gave a speech in which he reminded everyone how much Caesar had loved the ordinary people. He also told them how in Caesar’s will he had left money for the poor people of Rome. Then he showed the crowd Caesar’s torn and bloody toga from when he had been killed. The crowd were furious. They turned on the murderers of Caesar and hunted them through the streets of Rome. Brutus and the other murderers fled.
+
+
+Caesar’s nephew was called Octavian. Caesar had adopted him as his son. He now called himself Octavian Caesar. Octavian and Mark Antony raised and army and chased Caesar’s murderers. They defeated them in battle. Brutus killed himself.
+
+
+Octavian and Mark Antony did not trust each other. They decided to divide up control of the Roman lands between them. Mark Antony took the East and ruled from Egypt. Octavian took the West and ruled from Rome. To make their alliance stronger, Mark Antony married Octavian’s sister, Octavia.
+
+
+However, in Egypt, Mark Antony met Cleopatra, the Queen of Egypt. She had been Julius Caesar’s girlfriend. Now she became Mark Antony’s girlfriend. People in Rome did not like this. Nor did Octavian. War broke out. There was a big naval battle but at the height of the battle, Cleopatra and her ships fled. Mark Antony followed her. The battle was lost. Then Mark Antony’s soldiers fled too.
+
+
+Mark Antony then believed that Cleopatra had killed herself. He was so upset he tried to kill himself with a sword. However, before he died he learned that Cleopatra was actually alive. He died in her arms. Cleopatra tried to make peace with Octavian but he was not interested. She killed herself by letting a snake bite her. She died from its poison.
+
+
+Octavian then took total control in Rome. He called himself Imperator which meant Commander. Over time this word changed and became our word for Emperor. The Roman Republic was over; now it was the Roman Empire."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

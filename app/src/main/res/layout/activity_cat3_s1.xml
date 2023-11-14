@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat3S1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                        image story                    -->
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat3s11" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--                    aaudio buttoon                    -->
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="playit"
+                        android:background="@drawable/playaudio" />
+
+                            <!--                    the text                    -->
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="In World War One Britain invented the tank. America, Russia and Britain used tanks to defeat Germany. However, after the war people in those countries did not want to fight any more wars. They made their armies small. They also decided to defend in the future not to attack. The French built a line of forts for defence. They did not have many tanks and those they did have they used for defence.
+
+The Germans though had other plans. After Hitler came to power his built a powerful army for Germany again. This army had many tanks. The German generals invented a new way of fighting. It involved lots of tanks in one place smashing through the enemy lines. They would be helped by planes and paratroopers. They called this type of fighting, Lighting War. In German that is Blitzkrieg. It relied on their tanks – in German they were called Panzers.
+
+The Germans invaded Poland. The Blitzkrieg worked. They crushed Poland with his cavalry and old fashioned army.
+
+Next the Germans attacked France. They smashed through the French lines. The British ran away and the French surrendered.
+
+The battle was followed by an air battle over Britain. This saw many German planes destroyed and the British one.
+
+Next the Germans attacked Greece. Again the Blitzkrieg worked. Then they attacked Crete. Crete was an island and the British Royal Navy controlled the seas so the German used their paratroopers. They won the battle but many of the paratroopers were killed. Now the Germans had lost mucg of their airforce and their paratroopers. However, they still had their tanks.
+
+Next they attacked Russia. At first, the Blitzkrieg worked again. However, the Russians had developed their own excellent tank called the T-34. They were also happy to attack the Germans. There were huge tank battles in Russia. Slowly the Russians started to win. Then America joined the war. She had learned from the Germans how to use tanks. The British had also now learned. As the British and Americans fought the Germans they used their massive tank armies and many planes to defeat Germany.
+
+The War was won."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

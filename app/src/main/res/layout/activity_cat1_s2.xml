@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#FEFEFE"
+    tools:context=".Cat1S2">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="677dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cat1s22" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/playaudio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/playaudio"
+                        android:onClick="playit" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sars"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="What enormous, boundless, emptiness!
+Golden hills of hot sand! The only signs of life are the footprints of camels, who plodd painfully though this vastness.
+
+The robes that I wear once belonged to a sultan, and were stolen by sneaky thieves who left them in an oasis when the soldiers came looking for them. I saw the skirmish and picked up this fine set of clothes.
+The stone set in my turban is an opal I believe, and worth a fortune.
+It suits me, does it not?
+
+These past twenty years I have travelled far and wide.
+America, China, Italy, France, England.
+
+And now I have come to ancient Africa. My aim is to learn what secret the great sphinx of Egypt holds.
+
+But first I must cross the desert on my four legged ship, a bad mannered camel, who grunts and, groans, and spits. He’s more uncomfortable to ride than a reindeer! Oh if only he could fly! Instead he just plods, plods, plods…
+
+Music
+
+Now this is a place I prefer.
+A desert oasis. Palm trees, tents and a pale moon.
+
+Some friendly bedouins share their dinner with me. They are impressed by my dress! They see that I am an important person.
+
+(Clap)
+
+The chieftain claps his hands. Let the entertainment begin. A delightful desert diversion is in store for us. A lovely girl will dance for us!
+
+(Anitra Dance Music)
+
+Bravo! Bravo! The dancing girl is beautiful indeed! I shall speak to her with my few words of Arabic.
+
+Marhaba habibi ! (Hello Lovely) Mā ismik? (What is your name?)
+
+Anitra: (Jana) Anitra
+
+Peer: Her name is Anitra. She is enchanting. If only I had more words of her language, I could tell her a tale or two. But Anitra, if you can understand my expression and the tone of my voice, listen:
+
+I choose your little heart to be my empire.
+
+She stares at me, mesmerised by my strange words and my foreign face, but there is something slightly odd in the way that she's looking at my head. It’s not my handsome features that interest her so much - it’s the precious jewel in my turban that she is contemplating! The glint of wealth flashes in her eyes like fire!
+
+(Waking up) Aaaah! It is morning. The Bedouin have departed early, long before the hot sun got out of bed. All they have left behind are the dying cinders of the campfire. Anitra has gone with them and well, well well, so has the jewel from my turban. So, easy come, easy go, they say. That’s another fortune that I won easily and lost just as swiftly. These past 20 years I have traded in all sorts of cargo. Good and evil. And my fortunes have risen and fallen like the waves. I am not worried. I shall be wealthy again.
+
+But my grumpy camel and I must plod on. We are heading for Egypt, the keeper of ancient secrets. My aim now is to solve the world’s oldest riddle! And then perhaps I shall be rich in wisdom.
+
+Here it is:
+
+The fantastic sphinx of Giza,
+Ancient statue staring at the sands with stony eyes.
+Half king, half cat, noiseless, noseless, peerless.
+With great lion’s paws and a broken human face.
+The cat who sat on the mat for three thousand years.
+Tell me of all those you have seen?
+Osiris
+Isis
+King Khafre
+Caesar
+Cleopatra
+Mark Anthony
+Napoleon
+
+And speak to me oh Sphinx, reveal your mystery
+What is the answer to the riddle of the sands?
+
+Voice: Ach, Sphinx, Wer bist du?
+
+Peer: What, the Sphinx speaks German? What unexpected riddle is this?
+
+Ah! It must be the Sahara sun showing me mirages. I see now, a little bald tourist is coming round the corner of the great limestone statue of the lion person. He must be the one with the German voice who accidentally tricked me just now. Good day to you sir!
+
+Peer: What brings you here?
+
+German: Why I came to ask a question. Sphinx, who are you?
+
+Peer: And did he answer you?
+
+German: Nine.
+
+Peer: Well, I can answer that question. The sphinx is himself.
+
+German: The sphinx is himself! Brilliant! It is undoubtedly true! You have solved the riddle of the sands!
+
+Peer: Not I. The answer was revealed to me back in my youth by one who called herself the Bøyg.
+
+German: But it was you who told it to me! Let us celebrate the solving of this ancient mystery! Come with me to the city of Cairo. My friends are philosophers and historians. They will be happy to honour a learned man like you who posses such great wisdom!
+
+Music (or sound scape fx)
+
+Peer: Your house is well protected, with heavy bolts of iron and bars on the window.
+
+German: We like to keep everyone who lives here safe. Come meet the others, but let me warn you first, everything here is abit topsy turvey. You might hear that good is bad, and old is young, and small is big. Do not be surprised if you do.
+
+Peer. It is not the first time I have heard such things.
+
+German: Good.
+
+Peer: Who else lives here, by the way?
+
+German: Only those who are sound of mind.
+
+German: Now let me introduce you. This round, broad shouldered muscular fellow is Apis.
+
+Peer. The ancient bull god of Egypt shares the same name.
+
+Apis: Yes, I am one and the same. I built the pyramids and carved the mighty sphinx.
+
+Peer: Well good for you!
+
+German: And this tall chap with a fine nose is Memnon.
+
+Peer: The king of Ethiopia who fought against the Greeks at Troy?
+
+German: The very same.
+
+Peer: Pleased to meet you, Memnon. And this lady? Let me guess, Queen Cleopatra.
+
+German. You are mistaken, but not to worry, you are not the first. She is in fact, Queen Nefertiti - the long elegant neck is the give away. Now, will you be so kind as to introduce yourself to my learned friends.
+
+Peer: I am Peer Gynt, emperor of the Self!
+
+All: Long live the Emperor of the Self!
+
+Peer: I swore once that I would not return home until I had become emperor. So this is how I achieve my lifelong ambition! I am finally hailed as Emperor by a bunch of deluded lunatics! I might as well go back to where I came from.What enormous, boundless, emptiness!
+Golden hills of hot sand! The only signs of life are the footprints of camels, who plodd painfully though this vastness.
+
+The robes that I wear once belonged to a sultan, and were stolen by sneaky thieves who left them in an oasis when the soldiers came looking for them. I saw the skirmish and picked up this fine set of clothes.
+The stone set in my turban is an opal I believe, and worth a fortune.
+It suits me, does it not?
+
+These past twenty years I have travelled far and wide.
+America, China, Italy, France, England.
+
+And now I have come to ancient Africa. My aim is to learn what secret the great sphinx of Egypt holds.
+
+But first I must cross the desert on my four legged ship, a bad mannered camel, who grunts and, groans, and spits. He’s more uncomfortable to ride than a reindeer! Oh if only he could fly! Instead he just plods, plods, plods…
+
+Music
+
+Now this is a place I prefer.
+A desert oasis. Palm trees, tents and a pale moon.
+
+Some friendly bedouins share their dinner with me. They are impressed by my dress! They see that I am an important person.
+
+(Clap)
+
+The chieftain claps his hands. Let the entertainment begin. A delightful desert diversion is in store for us. A lovely girl will dance for us!
+
+(Anitra Dance Music)
+
+Bravo! Bravo! The dancing girl is beautiful indeed! I shall speak to her with my few words of Arabic.
+
+Marhaba habibi ! (Hello Lovely) Mā ismik? (What is your name?)
+
+Anitra: (Jana) Anitra
+
+Peer: Her name is Anitra. She is enchanting. If only I had more words of her language, I could tell her a tale or two. But Anitra, if you can understand my expression and the tone of my voice, listen:
+
+I choose your little heart to be my empire.
+
+She stares at me, mesmerised by my strange words and my foreign face, but there is something slightly odd in the way that she's looking at my head. It’s not my handsome features that interest her so much - it’s the precious jewel in my turban that she is contemplating! The glint of wealth flashes in her eyes like fire!
+
+(Waking up) Aaaah! It is morning. The Bedouin have departed early, long before the hot sun got out of bed. All they have left behind are the dying cinders of the campfire. Anitra has gone with them and well, well well, so has the jewel from my turban. So, easy come, easy go, they say. That’s another fortune that I won easily and lost just as swiftly. These past 20 years I have traded in all sorts of cargo. Good and evil. And my fortunes have risen and fallen like the waves. I am not worried. I shall be wealthy again.
+
+But my grumpy camel and I must plod on. We are heading for Egypt, the keeper of ancient secrets. My aim now is to solve the world’s oldest riddle! And then perhaps I shall be rich in wisdom.
+
+Here it is:
+
+The fantastic sphinx of Giza,
+Ancient statue staring at the sands with stony eyes.
+Half king, half cat, noiseless, noseless, peerless.
+With great lion’s paws and a broken human face.
+The cat who sat on the mat for three thousand years.
+Tell me of all those you have seen?
+Osiris
+Isis
+King Khafre
+Caesar
+Cleopatra
+Mark Anthony
+Napoleon
+
+And speak to me oh Sphinx, reveal your mystery
+What is the answer to the riddle of the sands?
+
+Voice: Ach, Sphinx, Wer bist du?
+
+Peer: What, the Sphinx speaks German? What unexpected riddle is this?
+
+Ah! It must be the Sahara sun showing me mirages. I see now, a little bald tourist is coming round the corner of the great limestone statue of the lion person. He must be the one with the German voice who accidentally tricked me just now. Good day to you sir!
+
+Peer: What brings you here?
+
+German: Why I came to ask a question. Sphinx, who are you?
+
+Peer: And did he answer you?
+
+German: Nine.
+
+Peer: Well, I can answer that question. The sphinx is himself.
+
+German: The sphinx is himself! Brilliant! It is undoubtedly true! You have solved the riddle of the sands!
+
+Peer: Not I. The answer was revealed to me back in my youth by one who called herself the Bøyg.
+
+German: But it was you who told it to me! Let us celebrate the solving of this ancient mystery! Come with me to the city of Cairo. My friends are philosophers and historians. They will be happy to honour a learned man like you who posses such great wisdom!
+
+Music (or sound scape fx)
+
+Peer: Your house is well protected, with heavy bolts of iron and bars on the window.
+
+German: We like to keep everyone who lives here safe. Come meet the others, but let me warn you first, everything here is abit topsy turvey. You might hear that good is bad, and old is young, and small is big. Do not be surprised if you do.
+
+Peer. It is not the first time I have heard such things.
+
+German: Good.
+
+Peer: Who else lives here, by the way?
+
+German: Only those who are sound of mind.
+
+German: Now let me introduce you. This round, broad shouldered muscular fellow is Apis.
+
+Peer. The ancient bull god of Egypt shares the same name.
+
+Apis: Yes, I am one and the same. I built the pyramids and carved the mighty sphinx.
+
+Peer: Well good for you!
+
+German: And this tall chap with a fine nose is Memnon.
+
+Peer: The king of Ethiopia who fought against the Greeks at Troy?
+
+German: The very same.
+
+Peer: Pleased to meet you, Memnon. And this lady? Let me guess, Queen Cleopatra.
+
+German. You are mistaken, but not to worry, you are not the first. She is in fact, Queen Nefertiti - the long elegant neck is the give away. Now, will you be so kind as to introduce yourself to my learned friends.
+
+Peer: I am Peer Gynt, emperor of the Self!
+
+All: Long live the Emperor of the Self!
+
+Peer: I swore once that I would not return home until I had become emperor. So this is how I achieve my lifelong ambition! I am finally hailed as Emperor by a bunch of deluded lunatics! I might as well go back to where I came from."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navgationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            app:backgroundTint="#88FFFFFF"
+            app:maxImageSize="70dp"
+            app:menu="@menu/bottom_menu"
+            app:tint="@color/purple_200"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

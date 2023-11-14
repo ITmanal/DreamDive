@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUsFragment"
+    android:background="@drawable/blurpurblebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="700dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bio1"
+                        android:layout_width="322dp"
+                        android:layout_height="527dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="90dp"
+
+                        android:src="@drawable/bio1" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="700dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bio2"
+                        android:layout_width="322dp"
+                        android:layout_height="527dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="90dp"
+
+                        android:src="@drawable/bio2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="700dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bio3"
+                        android:layout_width="322dp"
+                        android:layout_height="527dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="90dp"
+
+                        android:src="@drawable/bio4" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="700dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bio4"
+                        android:layout_width="322dp"
+                        android:layout_height="527dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="90dp"
+
+                        android:src="@drawable/bio3" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</FrameLayout>

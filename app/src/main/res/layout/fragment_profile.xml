@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/account">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/font6"
+        android:text="manal"
+        android:textColor="#F6F6FE"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/font3"
+        android:text="You recently listened to :"
+        android:textColor="#CEB2F4"
+        android:textSize="19dp" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginTop="400dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/box2"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/s1"
+                        android:layout_width="290dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/trooblee"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="5dp"
+                        android:contentDescription="@string/action_settings"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/box10"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/s2"
+                        android:layout_width="290dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/cat3s1"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="5dp"
+                        android:contentDescription="@string/action_settings"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/box13"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/s3"
+                        android:layout_width="290dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/cat4s2"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="5dp"
+                        android:contentDescription="@string/action_settings"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

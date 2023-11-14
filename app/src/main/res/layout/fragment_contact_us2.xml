@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactUsFragment"
+    android:background="@drawable/contact">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="255dp"
+                android:fontFamily="@font/font3"
+                android:text="We created this app to make your life a brighter.\nYour feedback is very important to us so we can continue to improve and provide you with the best experience possible. \nPlease don't hesitate to reach out with any questions, comments, or concerns.\nWe genuinely aim to provide you with the utmost care, dedication to quality, and attention to detail.\nThank you for choosing our app and we look forward to hearing from you. We hope it adds value and joy to your life.
+        \nSincerely,\nDreamDive team"
+                android:textColor="#CEB2F4"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/faceboook"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/faceboook"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoLink="web"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:text="facebook.com"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/twitter"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoLink="web"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:text="twitter.com"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/instagram"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoLink="web"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:text="instagram.com"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
